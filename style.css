@@ -1,0 +1,46 @@
+ul{
+  display: flex; 
+  gap: 30px;
+  list-style: none;
+}
+img{
+  max-width: 100%;
+}
+
+div.caption p{
+  display: none;
+}
+.mfp-gallery .mfp-image-holder .mfp-figure { 
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+}
+
+.mfp-bottom-bar {
+    position: initial;
+    margin: 0 10%;
+    background: #000;
+    width: auto;
+    padding: 0 15px;
+}
+
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+    position: fixed;
+    z-index: 99;
+    top: 10px;
+    right: 20px;
+    width: initial;
+}
+
+.mfp-counter {
+    display: none;
+}
+
+img.mfp-img {
+    padding: 0 10%;
+}
+
+.mfp-figure:after {
+    background: transparent;
+    box-shadow: unset;
+}
